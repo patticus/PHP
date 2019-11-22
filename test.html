@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Registration Page</title>
+<link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+<div class="container">
+<div class="loginform">
+<h1>REGISTER YOUR ACCOUNT BUDDY!</h1>
+<h3><?php echo htmlspecialchars($error); ?></h3>
+<form action="" method="POST">
+Email: <input type="text" name="email"> <br />
+Username: <input type="text" name="uname"> <br />
+Password: <input type="password" name="pword"> <br />
+Confirm Password: <input type="password" name="cpword"> <br />
+<input type="submit" value="SUBMIT">
+</form>
+</div>
+</div>
+</body>
+</html>
